@@ -88,7 +88,7 @@ const MediaSearch = () => {
           </Stack>
           <TextField
             color="success"
-            placeholder="Search..."
+            placeholder={`Search for ${mediaType.toUpperCase()}`}
             sx={{ width: '100%' }}
             autoFocus
             onChange={onQueryChange}
